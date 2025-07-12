@@ -10,7 +10,7 @@ import { Button } from "@/components/ui/button";
 import { LogOut } from "lucide-react";
 import { Song } from "@/services/spotifyService";
 import { useLikedSongs } from "@/hooks/useLikedSongs";
-import { useUserPlaylists } from "@/hooks/usePlaylists";
+import { useUserPlaylists } from "@/hooks/useUserPlaylists";
 
 const Index = () => {
   const [currentSong, setCurrentSong] = useState<Song | null>(null);
