@@ -22,7 +22,7 @@ const Index = () => {
   
   const { user, signOut, loading } = useAuth();
   const { isLiked, toggleLike } = useLikedSongs();
-  const { currentPlaylist } = usePlaylists();
+  const { currentPlaylist } = useUserPlaylists();
   const navigate = useNavigate();
 
   useEffect(() => {
